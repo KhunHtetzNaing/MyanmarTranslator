@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Myanmar Translator</string>
+    <string name="action_settings">About</string>
+
+    <array name="country_name">
+        <item>Myanmar</item>
+        <item>PaOh</item>
+        <item>Shan</item>
+    </array>
+</resources>

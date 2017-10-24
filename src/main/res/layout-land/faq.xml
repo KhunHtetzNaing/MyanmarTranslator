@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Google Translate ကရႏိုင္တဲ့ဘာသာစကားအားလုံး ဘာသာျပန္ေပးႏိုင္ပါတယ္။
+ဘာသာျပန္ဆိုျခင္းလႊဲမွားမႈမ်ားကိုေတာ့ App နဲ႔မဆိုင္ပါ။
+Google ကျပန္ဆိုသည့္အတိုင္း ေဖာ္ျပျခင္းသာျဖစ္ပါသည္။
+လက္ရွိအခ်ိန္တြင္ျမန္မာဘာသာသည္ အားလုံးမွန္ကန္ေအာင္ Google ကမျပန္ဆိုႏိုင္ေသးပါ။
+ယခု App သည္ျမန္မာေဇာ္ဂ်ီအသုံးျပဳသူမ်ားအတြက္
+Google Translate အသုံးျပဳႏိုင္ေအာင္ ဖန္တီးထားျခင္းျဖစ္ပါသည္။"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

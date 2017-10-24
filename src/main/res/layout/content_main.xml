@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.htetznaing.myanmartranslator.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/l1"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<LinearLayout-->
+            <!--android:background="#2196F3"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<Spinner-->
+                <!--android:dropDownWidth="200dp"-->
+                <!--android:id="@+id/spinnerFrom"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"></Spinner>-->
+        <!--</LinearLayout>-->
+        <!---->
+        <!--<LinearLayout-->
+            <!--android:background="#009688"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<Spinner-->
+                <!--android:dropDownWidth="200dp"-->
+                <!--android:id="@+id/spinnerTo"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"></Spinner>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:src="@drawable/to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#FF3424"
+        android:layout_toLeftOf="@id/l2"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Spinner
+        android:dropDownWidth="200dp"
+        android:id="@+id/spinnerFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#26B14C"
+        android:layout_toRightOf="@id/l2"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Spinner
+            android:dropDownWidth="200dp"
+            android:id="@+id/spinnerTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+
+    <EditText
+        android:hint="Tap to enter here"
+        android:gravity="start"
+        android:id="@+id/Input"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="70dp"
+        android:layout_below="@id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
